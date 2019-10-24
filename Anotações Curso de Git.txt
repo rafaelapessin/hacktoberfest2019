@@ -1,0 +1,44 @@
+O que é Git?
+- Sistema de controle de versões distribuído
+- Registra histórico de modificações em qualquer tipo de arquivo
+
+Quais problemas resolve?
+- Centralização de tudo em um único servidor (Sistema de controle de versão)
+
+Serviços populares:
+- Hospedagem online de repositórios
+- GitHub, GitLab, Bitbucket, Azure DevOps
+
+Repositório: guarda o histórico de todas as modificações do projeto; é o projeto em si
+Commit: é uma versão do projeto
+
+Passos:
+Abre o terminal Git Bash na pasta
+No GitHub vai em "Clone or download" e copia o link
+No terminal Git Bash:
+git clone "link do gitHub" - vai clonar o repositório
+git status: mostra o que foi modificado no repositório
+git add.: sobe a modificação para o GitHub; todos os arquivos
+git add "arquivo.extensao": sobe um determinado arquivo
+git commit -m "comentario sobre a alteração feita"
+git push
+
+se ao dar um git commit -m "comentario" aparecer:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+deve-se fazer o seguinte:
+copiar a primeira linha e colocar no lugar de "you@example.com" o e-mail que foi cadastrado no gitHub > Enter
+copiar a segunda linha e colocar no lugar de "Your Name" o username que foi cadastrado no gitHub > Enter
+
+git fetch: compara o que está na máquina local com o que está no GitHub, mostrando se há diferença de quantidade de commit
+git pull: atualiza localmente, para ficar igual ao repositório
+ 
+
+
+
+
+
+
+
+
+
